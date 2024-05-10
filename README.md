@@ -121,6 +121,11 @@ class _MyAppState extends State<MyApp> {
   }
 }
 ```
+
+# Drawer Widget
+<p align="center">
+   <img src = "https://github.com/DurgaMewada/resume_app_daily_task/assets/149373536/160c227d-ef7c-4767-95c5-0673130ed017" width=22% height=35% >
+</p>
 ## Getting Started
 
 This project is a starting point for a Flutter application.
