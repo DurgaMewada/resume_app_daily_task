@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/services.dart';
+import 'package:resume_app_daily_task/Screen/1screen.dart';
+import 'Screen/ImagePicker.dart';
 void main()
 {
   runApp(MyApp(),);
@@ -7,7 +8,6 @@ void main()
 
 class MyApp extends StatefulWidget {
   const MyApp({super.key});
-
   @override
   State<MyApp> createState() => _MyAppState();
 }
@@ -15,10 +15,9 @@ class MyApp extends StatefulWidget {
 class _MyAppState extends State<MyApp> {
   @override
   Widget build(BuildContext context) {
-    SystemChrome.setSystemUIOverlayStyle(SystemUiOverlayStyle(statusBarColor: Colors.green),);
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home:Scaffold(),
+      home:Picker(),
     );
   }
 }
