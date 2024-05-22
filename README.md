@@ -146,6 +146,11 @@ class _MyAppState extends State<MyApp> {
    
    <video height="450" src="https://github.com/DurgaMewada/google_login_verification/assets/149373536/18fc7cdd-220d-4c07-b8a5-c31929018449"/>
 </p>   [Google Login ] (https://github.com/DurgaMewada/google_login_verification/tree/master/lib)
+
+# 6.5 SnackBar
+<p align="center">
+      <img src = "https://github.com/DurgaMewada/google_login_verification/assets/149373536/09e9d78e-96e2-4b70-b0b8-6b172f340c2f" >
+</p>
 ## Getting Started
 
 This project is a starting point for a Flutter application.
