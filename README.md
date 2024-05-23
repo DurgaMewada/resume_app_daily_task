@@ -156,8 +156,7 @@ class _MyAppState extends State<MyApp> {
    <img src = "https://github.com/DurgaMewada/resume_app_daily_task/assets/149373536/63ccaaa8-b9a0-49f7-bda5-afedcfef3980" width=22% height=35% >
    <img src = "https://github.com/DurgaMewada/resume_app_daily_task/assets/149373536/ebb1f4bc-fbab-4e59-ada8-426e0bc7c789" width=22% height=35% >
    <img src = "https://github.com/DurgaMewada/resume_app_daily_task/assets/149373536/817fcbd2-6366-4d4e-b549-bff5f51c7a94" width=22% height=35% >
-   <video height="450" src="https://github.com/DurgaMewada/login_page/assets/149373536/11c0025d-fd64-41b7-a7c7-3f56d07987f6
-"/>
+   <video height="450" src="https://github.com/DurgaMewada/resume_app_daily_task/assets/149373536/c2f07fa6-2734-422c-a0b4-83ff19870fa5"/>
 </p>
 ## Getting Started
 
