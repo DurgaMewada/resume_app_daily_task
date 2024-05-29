@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:resume_app_daily_task/Screen/1screen.dart';
+import 'Screen/DynamicTextField.dart';
 import 'Screen/ImagePicker.dart';
 void main()
 {
@@ -17,7 +18,7 @@ class _MyAppState extends State<MyApp> {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home:Picker(),
+      home:DynamicTextField(),
     );
   }
 }
