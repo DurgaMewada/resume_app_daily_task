@@ -150,6 +150,14 @@ class _MyAppState extends State<MyApp> {
 <p align="center">
       <img src = "https://github.com/DurgaMewada/google_login_verification/assets/149373536/09e9d78e-96e2-4b70-b0b8-6b172f340c2f" >
 </p>
+
+# 6.6 Image Picker in Flutter
+<p align="center">
+   <img src = "https://github.com/DurgaMewada/resume_app_daily_task/assets/149373536/63ccaaa8-b9a0-49f7-bda5-afedcfef3980" width=22% height=35% >
+   <img src = "https://github.com/DurgaMewada/resume_app_daily_task/assets/149373536/ebb1f4bc-fbab-4e59-ada8-426e0bc7c789" width=22% height=35% >
+   <img src = "https://github.com/DurgaMewada/resume_app_daily_task/assets/149373536/817fcbd2-6366-4d4e-b549-bff5f51c7a94" width=22% height=35% >
+   <video height="450" src="https://github.com/DurgaMewada/resume_app_daily_task/assets/149373536/c2f07fa6-2734-422c-a0b4-83ff19870fa5"/>
+</p>
 ## Getting Started
 
 This project is a starting point for a Flutter application.
