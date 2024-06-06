@@ -158,6 +158,12 @@ class _MyAppState extends State<MyApp> {
    <img src = "https://github.com/DurgaMewada/resume_app_daily_task/assets/149373536/817fcbd2-6366-4d4e-b549-bff5f51c7a94" width=22% height=35% >
    <video height="450" src="https://github.com/DurgaMewada/resume_app_daily_task/assets/149373536/c2f07fa6-2734-422c-a0b4-83ff19870fa5"/>
 </p>
+
+# 6.7 Generate Dynamic Text Field
+<p align="center">
+   <img src = "https://github.com/DurgaMewada/resume_app_daily_task/assets/149373536/5d1d2b4b-4101-469e-9a42-891c71752ab3" width=22% height=35% >
+   <video height="450" src="https://github.com/DurgaMewada/resume_app_daily_task/assets/149373536/f5d32b40-c2f7-4d81-a864-d314593154bd"/>
+</p>
 ## Getting Started
 
 This project is a starting point for a Flutter application.
