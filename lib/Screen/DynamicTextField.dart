@@ -50,12 +50,6 @@ class _DynamicTextFieldState extends State<DynamicTextField> {
                       IconButton(onPressed: () {
                         TextEditingController txtController = TextEditingController();
                         setState(() {
-                          txtControllerList.add(txtController);
-                        });
-                      }, icon: Icon(Icons.add_box_outlined,size: 30,)),
-                      IconButton(onPressed: () {
-                        TextEditingController txtController = TextEditingController();
-                        setState(() {
                           txtControllerList.removeAt(index);
                         });
                       }, icon: Icon(Icons.delete,size: 30,))
@@ -63,21 +57,34 @@ class _DynamicTextFieldState extends State<DynamicTextField> {
                   ),
                 ),
               ), ),
-              FloatingActionButton(onPressed: () {
-                String skills = txtController.text;
+              Row(
+                mainAxisAlignment: MainAxisAlignment.center,
+                children: [
+                  FloatingActionButton(onPressed: () {
+                    TextEditingController txtController = TextEditingController();
+                    setState(() {
+                      txtControllerList.add(txtController);
+                    });
+                  }, child: Icon(Icons.add_box_outlined,size: 30,)),
+                  SizedBox(width: 30,),
+                  FloatingActionButton(onPressed: () {
+                    String skills = txtController.text;
 
-                for(int i=1 ; i<txtControllerList.length;i++)
-                {
-                  skills = skills + " " + txtControllerList[i].text;
-                }
-                ScaffoldMessenger.of(context).showSnackBar(SnackBar(
-                  content :Text('${skills} ${txtControllerList[1].text}'),
+                    for(int i=1 ; i<txtControllerList.length;i++)
+                    {
+                      skills = skills + " " + txtControllerList[i].text;
+                    }
+                    ScaffoldMessenger.of(context).showSnackBar(SnackBar(
+                      content :Text('${skills} ${txtControllerList[1].text}'),
 
-                ),
+                    ),
 
-                );
+                    );
 
-              },child: Icon(Icons.play_arrow),)
+                  },child: Icon(Icons.play_arrow),)
+                ],
+              )
+
             ],
           ),
         ),
